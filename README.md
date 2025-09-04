@@ -41,6 +41,11 @@ Este projeto aplica técnicas de **Machine Learning** para prever o rendimento d
 ### 1. Configurar Ambiente
 
 ```bash
+# Ativar ambiente virtual
+.\venv\Scripts\activate  # Windows
+# ou
+source venv/bin/activate  # Linux/Mac
+
 # Instalar dependências
 pip install pandas numpy scikit-learn matplotlib seaborn plotly scipy xgboost lightgbm jupyter
 # ou
@@ -105,18 +110,17 @@ jupyter notebook GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb
 ## 📁 Estrutura do Projeto
 
 ```
-fiap-fase5-ml-cap1/
-├── GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb
-├── crop_yield.csv                                   
-├── requirements.txt                                
-├── AWS_Cost_Comparison.md                          
-└── README.md                                       
+FarmTech/
+├── GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb  # Notebook principal
+├── crop_yield.csv                                   # Dataset
+├── AWS_Cost_Comparison.md                          # Análise de custos AWS
+└── README.md                                       # Este arquivo
 ```
 
 ## 🔗 Links Importantes
 
 ### 📚 Documentação
-- **Notebook Jupyter:** [GUSTAVOZANETTEMARTINS_rm564523_pbl_fase5.ipynb](./GUSTAVOZANETTEMARTINS_rm564523_pbl_fase5.ipynb)
+- **Notebook Jupyter:** [GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb](./GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb)
 - **Análise AWS:** [AWS_Cost_Comparison.md](./AWS_Cost_Comparison.md)
 
 ### 🎥 Vídeos Demonstrativos
@@ -142,12 +146,24 @@ fiap-fase5-ml-cap1/
 - **AWS EC2** - Análise de custos de compute
 - **AWS EBS** - Análise de custos de storage
 
-## 📊 Principais Métricas Alcançadas
+## 📊 Principais Resultados Obtidos
 
-- **RMSE:** Erro médio quadrático das predições
-- **MAE:** Erro absoluto médio
-- **R²:** Coeficiente de determinação
-- **Silhouette Score:** Qualidade dos clusters
+### 🏆 **Melhor Modelo: Ridge Regression**
+- **R² (Coeficiente de Determinação):** 0.984 (98.4% de explicação da variância)
+- **RMSE (Erro Quadrático Médio):** 8,494.64 t/ha
+- **MAE (Erro Absoluto Médio):** 5,124.82 t/ha
+
+### 📈 **Ranking dos Modelos Testados:**
+1. **Ridge Regression** - R²: 0.984, RMSE: 8,494.64
+2. **Random Forest** - R²: 0.978, RMSE: 9,943.71  
+3. **XGBoost** - R²: 0.977, RMSE: 10,236.07
+4. **K-Nearest Neighbors** - R²: 0.601, RMSE: 42,651.25
+5. **Support Vector Regression** - R²: -0.287, RMSE: 76,597.38
+
+### 🔍 **Insights da Clusterização:**
+- **3 algoritmos aplicados:** K-Means, DBSCAN, Gaussian Mixture
+- **69 outliers identificados** pelo DBSCAN (condições climáticas extremas)
+- **4 culturas analisadas:** Cacau, Palma, Arroz, Borracha (39 amostras cada)
 
 ## 🔍 Insights Obtidos
 
@@ -168,6 +184,14 @@ fiap-fase5-ml-cap1/
 2. **Ausência de dados temporais** - Não há informações sazonais
 3. **Falta de dados geográficos** - Localização das culturas
 4. **Variáveis de solo** - Não incluídas no dataset atual
+
+## 🚀 Próximos Passos
+
+1. **Expandir dataset** com mais variáveis (solo, práticas agrícolas)
+2. **Implementar séries temporais** para análise sazonal
+3. **Desenvolver interface web** para uso prático
+4. **Integrar dados de sensores IoT** em tempo real
+5. **Validar modelos** em campo com agricultores
 
 ## 📞 Contato
 
