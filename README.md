@@ -110,17 +110,18 @@ jupyter notebook GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb
 ## 📁 Estrutura do Projeto
 
 ```
-FarmTech/
-├── GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb  # Notebook principal
-├── crop_yield.csv                                   # Dataset
-├── AWS_Cost_Comparison.md                          # Análise de custos AWS
-└── README.md                                       # Este arquivo
+fiap-fase5-ml-cap1/
+├── GUSTAVOZANETTEMARTINS_rm564523_pbl_fase5.ipynb  
+├── crop_yield.csv
+├── requirements.txt                                  
+├── AWS_Cost_Comparison.md                          
+└── README.md                                       
 ```
 
 ## 🔗 Links Importantes
 
 ### 📚 Documentação
-- **Notebook Jupyter:** [GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb](./GUSTAVOZANETTEMARTINS_rm564523_pbl_fase4.ipynb)
+- **Notebook Jupyter:** [GUSTAVOZANETTEMARTINS_rm564523_pbl_fase5.ipynb](./GUSTAVOZANETTEMARTINS_rm564523_pbl_fase5.ipynb)
 - **Análise AWS:** [AWS_Cost_Comparison.md](./AWS_Cost_Comparison.md)
 
 ### 🎥 Vídeos Demonstrativos
@@ -184,14 +185,6 @@ FarmTech/
 2. **Ausência de dados temporais** - Não há informações sazonais
 3. **Falta de dados geográficos** - Localização das culturas
 4. **Variáveis de solo** - Não incluídas no dataset atual
-
-## 🚀 Próximos Passos
-
-1. **Expandir dataset** com mais variáveis (solo, práticas agrícolas)
-2. **Implementar séries temporais** para análise sazonal
-3. **Desenvolver interface web** para uso prático
-4. **Integrar dados de sensores IoT** em tempo real
-5. **Validar modelos** em campo com agricultores
 
 ## 📞 Contato
 
