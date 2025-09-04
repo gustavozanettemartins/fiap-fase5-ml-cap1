@@ -40,11 +40,6 @@ Este projeto aplica técnicas de **Machine Learning** para prever o rendimento d
 
 ### 1. Configurar Ambiente
 
-```bash
-# Ativar ambiente virtual
-.\venv\Scripts\activate  # Windows
-# ou
-source venv/bin/activate  # Linux/Mac
 
 # Instalar dependências
 pip install pandas numpy scikit-learn matplotlib seaborn plotly scipy xgboost lightgbm jupyter
