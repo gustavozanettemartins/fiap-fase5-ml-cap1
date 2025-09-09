@@ -1,9 +1,7 @@
 # FarmTech - Machine Learning para Agricultura
 
-**Aluno:** Gustavo Zanette Martins  
-**RM:** 564523
-**Aluno:** Michelle Guedes Cavalari
-**RM:** 564557
+**Aluno:** Gustavo Zanette Martins e Michelle Guedes Cavalari
+**RM:** 564523 | 564557
 **Disciplina:** Fase 5 - Tratores digitais - Hardwares para IA
 
 ---
