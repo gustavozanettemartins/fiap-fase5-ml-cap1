@@ -1,7 +1,9 @@
 # FarmTech - Machine Learning para Agricultura
 
-**Autor:** Gustavo Zanette Martins  
-**RM:** 564523  
+**Aluno:** Gustavo Zanette Martins  
+**RM:** 564523
+**Aluno:** Michelle Guedes Cavalari
+**RM:** 564557
 **Disciplina:** Fase 5 - Tratores digitais - Hardwares para IA
 
 ---
@@ -120,7 +122,7 @@ fiap-fase5-ml-cap1/
 - **Análise AWS:** [AWS_Cost_Comparison.md](./AWS_Cost_Comparison.md)
 
 ### 🎥 Vídeos Demonstrativos
-- **Vídeo 1 - Machine Learning:** [Link será adicionado após gravação]
+- **Vídeo 1 - Machine Learning:** [Vídeo 1](https://www.youtube.com/watch?v=IAzIbgUn3LA)
 - **Vídeo 2 - AWS Cost Analysis:** [Link será adicionado após gravação]
 
 ## 🛠️ Tecnologias Utilizadas
