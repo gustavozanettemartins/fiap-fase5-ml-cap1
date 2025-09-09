@@ -121,7 +121,7 @@ fiap-fase5-ml-cap1/
 
 ### 🎥 Vídeos Demonstrativos
 - **Vídeo 1 - Machine Learning:** [Vídeo 1](https://www.youtube.com/watch?v=IAzIbgUn3LA)
-- **Vídeo 2 - AWS Cost Analysis:** [Link será adicionado após gravação]
+- **Vídeo 2 - AWS Cost Analysis:** [Vídeo 2](https://www.youtube.com/watch?v=gukuILEqj6M)
 
 ## 🛠️ Tecnologias Utilizadas
 
